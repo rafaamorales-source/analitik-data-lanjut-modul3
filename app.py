@@ -20,7 +20,7 @@ elif page == "Visualisasi":
     st.header("Halaman Visualisasi")
 
     # Baca file CSV
-    data = pd.read_csv("/Users/kay/DAL_Streamlit/app/pddikti_example.csv")
+    data = pd.read_csv("pddikti_example.csv")
 
     # Filter berdasarkan universitas
     selected_university = st.selectbox(
