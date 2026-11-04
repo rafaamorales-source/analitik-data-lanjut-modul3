@@ -12,7 +12,7 @@ if page == "Dataset":
     st.header("Halaman Dataset")
 
     # Baca file CSV
-    data = pd.read_csv("/Users/kay/DAL_Streamlit/app/pddikti_example.csv")
+    data = pd.read_csv("pddikti_example.csv")
 
     st.write(data)
 
